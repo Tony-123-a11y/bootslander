@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="top"></div>
+ 
+    <nav class="py-[15px] fixed w-[100%] left-0 top-0 z-[100] text-[#f2f2f5d6] backdrop-blur-[15px] bg-[#10058cb3]">
+        <div class="container flex items-center justify-between w-[85%]  mx-auto relative">
+          <span class="bi bi-list text-[30px] absolute right-0 hidden max-[1200px]:block"></span>
+         <h1 class="text-[3em] font-[700] font-[raleway]">Bootslander</h1>
+         <ul class="navList flex text-[1.5em] font-[poppins] max-[1200px]:hidden">
+            <li class=" text-[15px] group-hover: cursor-pointer relative px-[15px] py-6 font-[400] before:content-[''] before:absolute before:bottom-[22%] before:bg-blue-700 before:h-[2px] before:w-[0%] before:hover:w-[40%] before:transition-all ease-out">Home</li>
+            <li class=" text-[15px] group-hover: cursor-pointer relative px-[15px] py-6 font-[400] before:content-[''] before:absolute before:bottom-[22%] before:bg-blue-700 before:h-[2px] before:w-[0%] before:hover:w-[40%] before:transition-all ease-out">About</li>
+            <li class=" text-[15px] group-hover: cursor-pointer relative px-[15px] py-6 font-[400] before:content-[''] before:absolute before:bottom-[22%] before:bg-blue-700 before:h-[2px] before:w-[0%] before:hover:w-[40%] before:transition-all ease-out">Features</li>
+            <li class=" text-[15px] group-hover: cursor-pointer relative px-[15px] py-6 font-[400] before:content-[''] before:absolute before:bottom-[22%] before:bg-blue-700 before:h-[2px] before:w-[0%] before:hover:w-[40%] before:transition-all ease-out">Gallery</li>
+            <li class=" text-[15px] group-hover: cursor-pointer relative px-[15px] py-6 font-[400] before:content-[''] before:absolute before:bottom-[22%] before:bg-blue-700 before:h-[2px] before:w-[0%] before:hover:w-[40%] before:transition-all ease-out">Team</li>
+            <li class=" text-[15px] group-hover: cursor-pointer relative px-[15px] py-6 font-[400] before:content-[''] before:absolute before:bottom-[22%] before:bg-blue-700 before:h-[2px] before:w-[0%] before:hover:w-[40%] before:transition-all ease-out">Pricing</li>
+            <li class=" text-[15px] group-hover: cursor-pointer relative px-[15px] py-6 font-[400] before:content-[''] before:absolute before:bottom-[22%] before:bg-blue-700 before:h-[2px] before:w-[0%] before:hover:w-[40%] before:transition-all ease-out">Dropdown</li>
+            <li class=" text-[15px] group-hover: cursor-pointer relative px-[15px] py-6 font-[400] before:content-[''] before:absolute before:bottom-[22%] before:bg-blue-700 before:h-[2px] before:w-[0%] before:hover:w-[40%] before:transition-all ease-out">Contact</li>
+         </ul>
+        </div>
+    </nav>
+    <main class="min-h-[80em] relative flex items-center justify-center max-[1400px]:text-[.9rem] max-[990px]:h-[max-content] py-[12em] max-[990px]:text-[1rem] max-[735px]:text-[.7rem] ">
+       <div class="container w-[85%] mx-auto flex items-center justify-between z-[5] max-[990px]:flex-col-reverse max-[990px]:gap-[8em]"> 
+          <div class="textCont text-[#bbbad3] w-[50%] max-[990px]:w-[100%] ">
+            <h1 class="text-[4.8em] font-[700] leading-[1.3em] font-[raleway]">Build Your Landing Page With <Span class="text-[white] border-b-[4px] border-[#1acc8d]">Bootslander</Span></h1>
+            <p class="text-[2.2em] font-[400] my-[1.5em]">We are team of talented designers making websites with Bootstrap</p>
+            <div class="links font-[raleway] flex justify-start items-center gap-[2.5em]">
+                <button class="bg-[#1acc8d] text-[white] text-[1.5em] rounded-[3.2em] tracking-wide py-[.8em] px-[2.2em] max-[635px]:text-[2em]">Get Started</button>
+                <a href="#" class="flex items-center justify-center gap-[7px] font-[poppins] " >
+                    <span class="bi bi-play-fill text-[2.2em]  flex items-center justify-center border-[3px] border-[#1acc8d] text-[#1acc8d] rounded-full w-[1.5em] h-[1.5em] max-[635px]:text-[3em]"></span>
+                    <span class="text-[1.6em] text-[white] font-[600] max-[635px]:text-[2em]">Watch Video</span>
+                </a>
+            </div>
+          </div>
+          <div class="imageCont ">
+            <img src="hero-img.png" alt="" class="w-[415px] h-[555px] object-contain max-[1400px]:w-[356px] max-[1200px]:w-[296px] max-[990px]:w-[100%] max-[580px]:h-[392px]">
+          </div>
+       </div>
+       <svg class="hero-waves z-[20] h-[60px] w-[100%] absolute left-0 bottom-0 max-[580px]:h-[40px]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs >
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1 fill-white">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+        <g class="wave2 fill-white opacity-[.6]">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+        <g class="wave3 fill-white opacity-[.3]">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+    </main>
+    <section class="sectionOne py-[10em] max-[1400px]:text-[.95rem] max-[1200px]:text-[1rem] max-[580px]:text-[.8rem] max-[580px]:py-[6em]">
+        <div class="container w-[85%]  mx-auto flex justify-between items-center gap-[2.5em] text-[#444444] max-[1200px]:block">
+            <div class="textContent w-[58%] max-[1200px]:w-[100%]">
+                <h3 class="text-[1.6em] text-[#42b58c] px-[1.2em] py-[.5em] bg-[#1acc8e16] w-[107px] rounded-[.7em]">About Us</h3>
+                <h1 class="font-[700] text-[3em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em]">Ducimus rerum libero reprehenderit cumque</h1>
+                <p class="text-[1.65em]  font-[400] font-[raleway]">Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
+                <a href="#" class="bg-[#1acc8d] font-[raleway] font-[500] text-[1.6em] w-[max-content] rounded-[10px] flex items-center justify-center gap-[5px] py-[.6em] px-[1.4em]  text-white capitalize  my-[1em]"><span>read more</span><i class="bi bi-arrow-right text-white text-[1.2em] "></i></a>
+            </div>
+            <div class="gridContent grid grid-rows-2 grid-cols-2 w-[85%] gap-[2.5em] max-[1200px]:w-[100%] max-[1200px]:mt-[5em] max-[765px]:block">
+                <div class="gridContentBox  px-[3.5em] py-[5em] group shadow-xl rounded-[1em] mt-[2em]">
+                    <span class="bi bi-building text-[#1acc8d] bg-[#1acc8e16] text-[3.2em] w-[2.5em] h-[2.5em] flex items-center justify-center rounded-full group-hover:bg-[#1acc8d] group-hover:text-white transition "></span>
+                    <h3 class="font-[700] text-[2.4em] text-[#040677] my-[.8em] leading-[1.2em]">Eius provident</h3>
+                    <p class="text-[1.65em]  font-[400] ">Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                </div>
+                <div class="gridContentBox  px-[3.5em] py-[5em] group shadow-xl translate-y-[-4em]  rounded-[1em] max-[765px]:translate-y-0 mt-[2em]">
+                    <span class="bi bi-clipboard-pulse text-[#1acc8d] bg-[#1acc8e16] text-[3.2em] w-[2.5em] h-[2.5em] flex items-center justify-center rounded-full group-hover:bg-[#1acc8d] group-hover:text-white transition "></span>
+                    <h3 class="font-[700] text-[2.4em] text-[#040677] my-[.8em] leading-[1.2em]">Eius provident</h3>
+                    <p class="text-[1.65em]  font-[400] ">Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                </div>
+                <div class="gridContentBox px-[3.5em] py-[5em] group  shadow-xl  rounded-[1em] mt-[2em]">
+                    <span class="bi bi-command text-[#1acc8d] bg-[#1acc8e16] text-[3.2em] w-[2.5em] h-[2.5em] flex items-center justify-center rounded-full group-hover:bg-[#1acc8d] group-hover:text-white transition "></span>
+                    <h3 class="font-[700] text-[2.4em] text-[#040677] my-[.8em] leading-[1.2em]">Eius provident</h3>
+                    <p class="text-[1.65em]  font-[400] ">Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                </div>
+                <div class="gridContentBox  px-[3.5em] py-[5em] group  shadow-xl translate-y-[-4em]  rounded-[1em] max-[765px]:translate-y-0 mt-[2em]">
+                    <span class="bi bi-graph-up-arrow text-[#1acc8d] bg-[#1acc8e16] text-[3.2em] w-[2.5em] h-[2.5em] flex items-center justify-center rounded-full group-hover:bg-[#1acc8d] group-hover:text-white transition "></span>
+                    <h3 class="font-[700] text-[2.4em] text-[#040677] my-[.8em] leading-[1.2em]">Eius provident</h3>
+                    <p class="text-[1.65em]  font-[400] ">Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sectionTwo py-[6em] max-[1200px]:text-[.91rem] max-[990px]:text-[1rem] max-[580px]:text-[.8rem] max-[580px]:py-[6em]">
+      <div class="container w-[85%]  mx-auto grid grid-rows-3 grid-cols-4 gap-[2.5em] font-[raleway] max-[990px]:grid-rows-4 max-[990px]:grid-cols-3 max-[765px]:block ">
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-eye text-[2em] text-[#ffbb2c]"></span>
+          <span class="capitalize">Lorem Ipsum</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-infinity text-[2em] text-[#5578ff]"></span>
+          <span class="capitalize">Dolor Sitema</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-mortarboard text-[2em] text-[#e80368]"></span>
+          <span class="capitalize">SEd spicied</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-nut text-[2em] text-[#e361ff]"></span>
+          <span class="capitalize">magini dolesre</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-shuffle text-[2em] text-[#47aeff]"></span>
+          <span class="capitalize">shuffle you</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-star text-[2em] text-[#ffa76e]"></span>
+          <span class="capitalize">Lorem Ipsum</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-x-diamond text-[2em] text-[#11dbcf]"></span>
+          <span class="capitalize">Lorem Ipsum</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-camera-video text-[2em] text-[#4233ff]"></span>
+          <span class="capitalize">Numeber one</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-command text-[2em] text-[#b2904f]"></span>
+          <span class="capitalize">Lorem Ipsum</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-dribbble text-[2em] text-[#b20969]"></span>
+          <span class="capitalize">Lorem Ipsum</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-activity text-[2em] text-[#ff5828]"></span>
+          <span class="capitalize">khelo kudo</span>
+        </a>
+        <a href="" class="flex items-center justify-start px-[1.1em] py-[.6em] gap-[1em] border border-[#ececec] text-[1.6em] text-[#040677] font-[700] hover:border-[#19c588] hover:text-[#19c588] transition max-[765px]:mt-[1em] ">
+          <span class="bi bi-brightness-high text-[2em] text-[#29cc61]"></span>
+          <span class="capitalize">brightness</span>
+        </a>
+        </div>
+    </section>
+    <section class="sectionThree py-[6em] bg-[#f4f5fe] max-[1200px]:text-[.91rem]  max-[580px]:text-[.8rem] max-[580px]:py-[6em] font-[raleway]">
+      <div class="container w-[85%] mx-auto  flex items-center justify-center gap-[2.5em] max-[990px]:flex-wrap max-[990px]:gap-y-[4.5em]">
+        <div class="achievem w-[25%] bg-white text-center py-[3em] text-[#444444] relative shadow max-[990px]:w-[48%] max-[580px]:w-[100%]">
+          <span class="bi bi-emoji-smile text-[#1acc8d] text-[2.4em] w-[2.1em] h-[2.1em] rounded-full bg-white inline-flex items-center justify-center m-auto absolute  top-[-22px] shadow left-[50%] translate-x-[-50%] "></span>
+          <h1 class=" font-[600] text-[3.6em] font-[poppins]">232</h1>
+          <p class="font-[400] text-[1.6em]">Happy Clients</p>
+        </div>
+        <div class="achievem w-[25%] bg-white text-center py-[3em] text-[#444444] relative shadow max-[990px]:w-[48%] max-[580px]:w-[100%]">
+          <span class="bi bi-journal-richtext text-[#1acc8d] text-[2.4em] w-[2.1em] h-[2.1em] rounded-full bg-white inline-flex items-center justify-center m-auto absolute  top-[-22px]  shadow left-[50%] translate-x-[-50%] "></span>
+          <h1 class=" font-[600] text-[3.6em] font-[poppins]">521</h1>
+          <p class="font-[400] text-[1.6em]">Projects</p>
+        </div>
+        <div class="achievem w-[25%] bg-white text-center py-[3em] text-[#444444] relative shadow max-[990px]:w-[48%] max-[580px]:w-[100%]">
+          <span class="bi bi-headset text-[#1acc8d] text-[2.4em] w-[2.1em] h-[2.1em] rounded-full bg-white inline-flex items-center justify-center m-auto absolute  top-[-22px] shadow left-[50%] translate-x-[-50%] "></span>
+          <h1 class=" font-[600] text-[3.6em] font-[poppins]">1463</h1>
+          <p class="font-[400] text-[1.6em]">Hours of Support</p>
+        </div>
+        <div class="achievem w-[25%] bg-white text-center py-[3em] text-[#444444] relative shadow max-[990px]:w-[48%] max-[580px]:w-[100%]">
+          <span class="bi bi-people text-[#1acc8d] text-[2.4em] w-[2.1em] h-[2.1em] rounded-full bg-white inline-flex items-center justify-center m-auto absolute  top-[-22px] shadow  left-[50%] translate-x-[-50%] "></span>
+          <h1 class=" font-[600] text-[3.6em] font-[poppins]">15</h1>
+          <p class="font-[400] text-[1.6em]">Hard Workers</p>
+        </div>
+      </div>
+    </section>
+    <section class="sectionFour py-[6em]  max-[1200px]:text-[.91rem]  max-[580px]:text-[.8rem] max-[580px]:py-[6em]">
+      <div class="container w-[85%] mx-auto ">
+        <p class="text-[#444444b9] text-[1.6em] uppercase tracking-[1.5px] relative ">Details</p>
+        <h1 class="font-[700] text-[2.9em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em] uppercase">Check our details</h1>
+        <div class="flexBox flex items-center justify-center gap-[4em]  my-[6em] max-[765px]:block">
+           <div class="imageCont flex items-center justify-center"><img src="details-1.png" class="w-[52.6em] object-contain" alt=""></div>
+           <div class="textCont w-[60%] max-[765px]:w-[100%]">
+            <h1 class="font-[700] text-[2.6em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em]">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h1>
+            <p class="text-[1.65em]  font-[400] font-[raleway] text-[#444444] italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#444444] gap-[.5em] my-[.7em]"> <span class="bi bi-check text-[1.3em] text-[#1acc8d]"></span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#444444] gap-[.5em] my-[.7em]"> <span class="bi bi-check text-[1.3em] text-[#1acc8d]"></span>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#444444] gap-[.5em] my-[.7em]"> <span class="bi bi-check text-[1.3em] text-[#1acc8d]"></span>Ullam est qui quos consequatur eos accusamus.</li>
+            </ul>
+           </div>
+        </div>
+        <div class="flexBox flex items-center justify-center gap-[4em] flex-row-reverse  my-[6em] max-[765px]:block">
+           <div class="imageCont flex items-center justify-center"><img src="details-2.png" class="w-[52.6em] object-contain" alt=""></div>
+           <div class="textCont w-[60%] max-[765px]:w-[100%]">
+            <h1 class="font-[700] text-[2.6em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em]">Corporis temporibus maiores provident</h1>
+            <p class="text-[1.65em]  font-[400] font-[raleway] text-[#444444] italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-[1.65em]  font-[500] font-[raleway] text-[#444444] my-[1em]">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+           
+           </div>
+        </div>
+        <div class="flexBox flex items-center justify-center gap-[4em]  my-[6em] max-[765px]:block">
+           <div class="imageCont flex items-center justify-center"><img src="details-3.png" class="w-[52.6em] object-contain" alt=""></div>
+           <div class="textCont w-[60%] max-[765px]:w-[100%]">
+            <h1 class="font-[700] text-[2.6em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em]">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h1>
+            <p class="text-[1.65em]  font-[400] font-[raleway] text-[#444444] italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#444444] gap-[.5em] my-[.7em]"> <span class="bi bi-check text-[1.3em] text-[#1acc8d]"></span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#444444] gap-[.5em] my-[.7em]"> <span class="bi bi-check text-[1.3em] text-[#1acc8d]"></span>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#444444] gap-[.5em] my-[.7em]"> <span class="bi bi-check text-[1.3em] text-[#1acc8d]"></span>Ullam est qui quos consequatur eos accusamus.</li>
+            </ul>
+           </div>
+        </div>
+        <div class="flexBox flex items-center justify-center gap-[4em]  flex-row-reverse  my-[6em] max-[765px]:block">
+           <div class="imageCont flex items-center justify-center"><img src="details-4.png" class="w-[52.6em] object-contain" alt=""></div>
+           <div class="textCont w-[60%] max-[765px]:w-[100%]">
+            <h1 class="font-[700] text-[2.6em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em]">Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h1>
+            <p class="text-[1.65em]  font-[400] font-[raleway] text-[#444444] italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-[1.65em]  font-[500] font-[raleway] text-[#444444] my-[1em]">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+           </div>
+        </div>
+       
+      </div>
+    </section>
+    <section class="sectionFive py-[6em]  max-[1200px]:text-[.91rem]  max-[580px]:text-[.8rem] max-[580px]:py-[6em]">
+      <div class="container  w-[85%] mx-auto">
+        <p class="text-[#444444b9] text-[1.6em] uppercase tracking-[1.5px] relative ">Gallery</p>
+        <h1 class="font-[700] text-[2.9em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em] uppercase">Check Our Gallery</h1>
+        <div class="catalogue grid grid-cols-[repeat(4,1fr)] grid-rows-[repeat(2,auto)] my-[4em] gap-[2px] max-[990px]:grid-rows-[repeat(2,auto)]  max-[990px]:grid-cols-[repeat(3,1fr)] max-[735px]:block">
+                <div class="imageContent overflow-hidden max-[765px]:mt-[4px]"><img src="gallery-1.jpg" alt="" class="hover:scale-[1.1] transition duration-500 cursor-pointer"></div>
+                <div class="imageContent overflow-hidden max-[765px]:mt-[4px]"><img src="gallery-2.jpg" alt="" class="hover:scale-[1.1] transition duration-500 cursor-pointer"></div>
+                <div class="imageContent overflow-hidden max-[765px]:mt-[4px]"><img src="gallery-3.jpg" alt="" class="hover:scale-[1.1] transition duration-500 cursor-pointer"></div>
+                <div class="imageContent overflow-hidden max-[765px]:mt-[4px]"><img src="gallery-4.jpg" alt="" class="hover:scale-[1.1] transition duration-500 cursor-pointer"></div>
+                <div class="imageContent overflow-hidden max-[765px]:mt-[4px]"><img src="gallery-5.jpg" alt="" class="hover:scale-[1.1] transition duration-500 cursor-pointer"></div>
+                <div class="imageContent overflow-hidden max-[765px]:mt-[4px]"><img src="gallery-6.jpg" alt="" class="hover:scale-[1.1] transition duration-500 cursor-pointer"></div>
+                <div class="imageContent overflow-hidden max-[765px]:mt-[4px]"><img src="gallery-7.jpg" alt="" class="hover:scale-[1.1] transition duration-500 cursor-pointer"></div>
+                <div class="imageContent overflow-hidden max-[765px]:mt-[4px]"><img src="gallery-8.jpg" alt="" class="hover:scale-[1.1] transition duration-500 cursor-pointer"></div>
+        </div>
+      </div>
+    </section>
+  <section class="sectionSix pt-[6em] pb-[10em]  max-[1200px]:text-[.91rem]  max-[580px]:text-[.8rem] max-[580px]:py-[6em]">
+    <div class="container w-[85%] mx-auto">
+      <p class="text-[#444444b9] text-[1.6em] uppercase tracking-[1.5px] relative ">Team</p>
+      <h1 class="font-[700] text-[2.9em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em] uppercase">Check Our Team</h1>
+      <div class="flexBox flex items-center justify-center gap-[2em] my-[4em] max-[990px]:flex-wrap max-[990px]:justify-start">
+        <div class="flexBoxCont relative w-[33%] max-[990px]:w-[48%] max-[765px]:w-[100%]  ">
+          <img src="team-1.jpg" alt="" class="object-contain">
+          <div class="textCont py-[1.4em] px-[1em] shadow-lg absolute w-[90%] left-[50%] translate-x-[-50%] bottom-[-12%] bg-white">
+            <h3 class="font-[700]  text-[1.6em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em]">Walter White</h3>
+            <div class="about flex items-center justify-between ">
+              <p class="text-[1.3em]  font-[300] font-[poppins] text-[#444444] italic">Chief Executive Officer</p>
+             <ul class="flex gap-[1em]">
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-instagram  text-[gray] text-[1.6em]"></i></a></li>
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-facebook text-[gray] text-[1.6em]"></i></a></li>
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-twitter text-[gray] text-[1.6em]"></i></a> </i></li>
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-linkedin text-[gray] text-[1.6em]"></i></a></li>
+             </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flexBoxCont relative w-[33%] max-[990px]:w-[48%] max-[765px]:w-[100%]  max-[765px]:mt-[10em]">
+          <img src="team-2.jpg" alt="" class="object-contain">
+          <div class="textCont py-[1.4em] px-[1em] shadow-lg absolute w-[90%] left-[50%] translate-x-[-50%] bottom-[-12%] bg-white">
+            <h3 class="font-[700]  text-[1.6em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em]">
+              Sarah Jhonson</h3>
+            <div class="about flex items-center justify-between ">
+              <p class="text-[1.3em]  font-[300] font-[poppins] text-[#444444] italic">Product Manager</p>
+             <ul class="flex gap-[1em]">
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-instagram  text-[gray] text-[1.6em]"></i></a></li>
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-facebook text-[gray] text-[1.6em]"></i></a></li>
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-twitter text-[gray] text-[1.6em]"></i></a> </i></li>
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-linkedin text-[gray] text-[1.6em]"></i></a></li>
+             </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flexBoxCont relative w-[33%] max-[990px]:w-[48%] max-[990px]:mt-[7em]  max-[765px]:w-[100%]  max-[765px]:mt-[10em]">
+          <img src="team-3.jpg" alt="" class="object-contain">
+          <div class="textCont py-[1.4em] px-[1em] shadow-lg absolute w-[90%] left-[50%] translate-x-[-50%] bottom-[-12%] bg-white">
+            <h3 class="font-[700]  text-[1.6em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em]">William Anderson</h3>
+            <div class="about flex items-center justify-between ">
+              <p class="text-[1.3em]  font-[300] font-[poppins] text-[#444444] italic">CTO</p>
+             <ul class="flex gap-[1em]">
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-instagram  text-[gray] text-[1.6em]"></i></a></li>
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-facebook text-[gray] text-[1.6em]"></i></a></li>
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-twitter text-[gray] text-[1.6em]"></i></a> </i></li>
+              <li><a href="#"><i class=" transition duration-400 cursor-pointer hover:text-[#1a8ccd] bi bi-linkedin text-[gray] text-[1.6em]"></i></a></li>
+             </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sectionSeven py-[6em]   max-[1200px]:text-[.85rem] max-[990px]:text-[1rem]  max-[580px]:text-[.8rem] max-[580px]:py-[6em]">
+    <div class="container w-[85%] mx-auto">
+      <p class="text-[#444444b9] text-[1.6em] uppercase tracking-[1.5px] relative ">Pricing</p>
+      <h1 class="font-[700] text-[2.9em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em] uppercase">Check Our Pricing</h1>
+      <div class="flexBox flex items-center justify-center gap-[2em] mt-[4em] max-[990px]:block">
+        <div class="priceCard p-[4em] bg-[#f3fefb]  rounded-[1.5em] w-[33%] max-[990px]:w-[100%] max-[990px]:mt-[3em]">
+          <h3 class="text-[2em] font-[600] mb-[.7em] text-[#040677]">Free Plan</h3>
+          <p class="text-[1.4em] text-[#444444]">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
+          <h1 class="text-[4.8em] font-[700] font-[raleway] text-[#1acc8d] my-[.4em] "><sup class="text-[.65em]">$</sup>0<sub class="text-[.4em] font-[400] text-[#44444481]">/ month</sub></h1>
+          <button class="text-[1.6em] text-[#444444] font-[poppins] border border-[#444444] py-[.6em] px-[2.2em] w-[100%] rounded-[.3em] transition duration-400 hover:text-[white] hover:bg-[#1acc8d] hover:border-[#1acc8d]">Start a free trial</button>
+          <p class="text-center text-[1.3em] py-[.6em] font-[raleway] font-[500]">No credit card required</p>
+          <ul class="mt-[2em]">
+           
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652]"></span>Quam adipiscing vitae proin</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652]"></span>Nec feugiat nisl pretium</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652]"></span>Nulla at volutpat diam utee</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#afb3b2] gap-[.5em] my-[.85em]"> <span class="bi bi-x text-[1.5em] "></span><del>Pharetra massa massa ultricies</del></li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#afb3b2] gap-[.5em] my-[.85em]"> <span class="bi bi-x text-[1.5em] "></span><del>Voluptate id voluptas qui sed aperiam rerum</del></li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#afb3b2] gap-[.5em] my-[.85em]"> <span class="bi bi-x text-[1.5em] "></span><del>Massa ultricies mi quis hendrerit</del></li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#afb3b2] gap-[.5em] my-[.85em]"> <span class="bi bi-x text-[1.5em] "></span><del>Iure nihil dolores recusandae odit voluptatibus</del></li>
+           
+          </ul>
+        </div>
+        <div class="priceCard p-[4em] bg-[#f3fefb]  rounded-[1.5em] w-[33%] max-[990px]:w-[100%] max-[990px]:mt-[3em] relative">
+          <span class="text-[1.4em] font-[poppins] py-[.4em] px-[1em] rounded-[.3em] transition duration-400 text-[white] bg-[#1acc8d] border-[#1acc8d] absolute top-[1em] right-[1em] w-[80px] text-center">Popular</span>
+          <h3 class="text-[2em] font-[600] mb-[.7em] text-[#040677]">Business Plan</h3>
+          <p class="text-[1.4em] text-[#444444]">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
+          <h1 class="text-[4.8em] font-[700] font-[raleway] text-[#1acc8d] my-[.4em] "><sup class="text-[.65em]">$</sup>29<sub class="text-[.4em] font-[400] text-[#44444481]">/ month</sub></h1>
+          <button class="text-[1.6em]  font-[poppins]  py-[.6em] px-[2.2em] w-[100%] rounded-[.3em] transition duration-400 text-[white] bg-[#1acc8d] border-[#1acc8d]">Start a free trial</button>
+          <p class="text-center text-[1.3em] py-[.6em] font-[raleway] font-[500]">No credit card required</p>
+          <ul class="mt-[2em]">
+           
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652]"></span>Quam adipiscing vitae proin</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652]"></span>Nec feugiat nisl pretium</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652]"></span>Nulla at volutpat diam utee</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652] "></span>Pharetra massa massa ultricies</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652] "></span>Voluptate id voluptas qui sed aperiam rerum</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652] "></span>Massa ultricies mi quis hendrerit</li>
+              <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#afb3b2] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] "></span><del>Iure nihil dolores recusandae odit voluptatibus</del></li>
+           
+          </ul>
+        </div>
+        <div class="priceCard p-[4em] bg-[#f3fefb]  rounded-[1.5em] w-[33%] max-[990px]:w-[100%] max-[990px]:mt-[3em]">
+          <h3 class="text-[2em] font-[600] mb-[.7em] text-[#040677]">Developer Plan</h3>
+          <p class="text-[1.4em] text-[#444444]">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
+          <h1 class="text-[4.8em] font-[700] font-[raleway] text-[#1acc8d] my-[.4em] "><sup class="text-[.65em]">$</sup>49<sub class="text-[.4em] font-[400] text-[#44444481]">/ month</sub></h1>
+          <button class="text-[1.6em] text-[#444444] font-[poppins] border border-[#444444] py-[.6em] px-[2.2em] w-[100%] rounded-[.3em] transition duration-400 hover:text-[white] hover:bg-[#1acc8d] hover:border-[#1acc8d]">Start a free trial</button>
+          <p class="text-center text-[1.3em] py-[.6em] font-[raleway] font-[500]">No credit card required</p>
+          <ul class="mt-[2em]">
+           
+             
+            <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652]"></span>Quam adipiscing vitae proin</li>
+            <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652]"></span>Nec feugiat nisl pretium</li>
+            <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652]"></span>Nulla at volutpat diam utee</li>
+            <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652] "></span>Pharetra massa massa ultricies</li>
+            <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652] "></span>Voluptate id voluptas qui sed aperiam rerum</li>
+            <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652] "></span>Massa ultricies mi quis hendrerit</li>
+            <li class="flex items-center justify-start text-[1.6em]  font-[500] font-[raleway] text-[#818483] gap-[.5em] my-[.85em]"> <span class="bi bi-check text-[1.5em] text-[#059652] "></span>Iure nihil dolores recusandae odit voluptatibus</li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sectionEight sectionSeven py-[6em] bg-[#f4f5fe]    max-[1200px]:text-[.91rem]  max-[580px]:text-[.8rem] max-[580px]:py-[6em]">
+    <div class="container w-[85%] mx-auto">
+      <div class="flexBox flex  flex-row-reverse items-center gap-[5em] max-[990px]:block">
+        <div class="imageContent max-[990px]:mb-[4em]">
+          <img src="faq.jpg" alt="">
+        </div>
+        <div class="textContent">
+          <h1 class="font-[500] text-[3.4em] font-[raleway] text-[#040677] leading-[1.2em]">Frequently Asked <span class="font-[700] ">Questions</span></h1>
+          <p class="text-[1.6em]  font-[500]  font-[raleway] text-[#444444] my-[.8em] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+          <ul class="mt-[4em]"> 
+            <li class="  cursor-pointer bg-white mt-[1.5em] p-[2em] shadow-lg relative"><span class=" bi bi-question text-[2.6em] absolute  flex items-center justify-center w-[1em] h-[1em] rounded-full border-2 border-[#1acc8d] text-[#1acc8d]"></span><h3 class="inline-block font-[600] text-[1.7em] leading-[1.5em] text-[#040677] mx-[2em] ">Non consectetur a erat nam at lectus urna duis?</h3><i class="faq-toggle bi bi-chevron-right text-[1.4em] absolute right-[1em]"></i>
+              <!-- <p class="text-[1.6em]  font-[500]  font-[raleway] text-[#444444] my-[.8em]"  >Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p> -->
+            </li>
+            <li class="  cursor-pointer bg-white mt-[1.5em] p-[2em] shadow-lg relative"><span class=" bi bi-question text-[2.6em] absolute  flex items-center justify-center w-[1em] h-[1em] rounded-full border-2 border-[#1acc8d] text-[#1acc8d]"></span><h3 class="inline-block font-[600] text-[1.7em] leading-[1.5em] text-[#040677] mx-[2em] ">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3><i class="faq-toggle bi bi-chevron-right text-[1.4em] absolute right-[1em]"></i>
+              <!-- <p class="text-[1.6em]  font-[500]  font-[raleway] text-[#444444] my-[.8em]"  >Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p> -->
+            </li>
+            <li class="  cursor-pointer bg-white mt-[1.5em] p-[2em] shadow-lg relative"><span class=" bi bi-question text-[2.6em] absolute  flex items-center justify-center w-[1em] h-[1em] rounded-full border-2 border-[#1acc8d] text-[#1acc8d]"></span><h3 class="inline-block font-[600] text-[1.7em] leading-[1.5em] text-[#040677] mx-[2em] ">Dolor sit amet consectetur adipiscing elit pellentesque?</h3><i class="faq-toggle bi bi-chevron-right text-[1.4em] absolute right-[1em]"></i>
+              <!-- <p class="text-[1.6em]  font-[500]  font-[raleway] text-[#444444] my-[.8em]"  >Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p> -->
+            </li>
+           
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <section class="sectionNine py-[6em]   max-[1200px]:text-[.85rem] max-[990px]:text-[1rem]  max-[580px]:text-[.8rem] max-[580px]:py-[6em]">
+    <div class="container w-[85%] mx-auto">
+      <p class="text-[#444444b9] text-[1.6em] uppercase tracking-[1.5px] relative ">Contact</p>
+      <h1 class="font-[700] text-[2.9em] font-[raleway] text-[#040677] my-[.3em] leading-[1.2em] uppercase">Check Our Contact</h1>
+      <div class="formCont mt-[5em] flex items-start justify-center gap-[8em] max-[990px]:block">
+        <div class="iconCont w-[40%] max-[990px]:w-[100%]">
+          <ul>
+            <li class="flex items-center justify-start group">
+              <span class="bi bi-geo-alt text-[#1acc8d] bg-[#edfbf6] text-[2em] w-[2.2em] h-[2.2em] rounded-full flex items-center justify-center mr-[1em] group-hover:bg-[#1acc8d] group-hover:text-[white] transition duration-300 "></span>
+              <div class="textCont">
+                <h2 class="text-[1.8em] font-[700] mb-[5px] text-[#040677] font-[raleway]">Address</h2>
+                <p class="text-[1.4em] font-[poppins] font-[400] text-[#444444]">A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </li>
+            <li class="flex items-center justify-start mt-[3.2em] group">
+              <span class="bi bi-telephone text-[#1acc8d] bg-[#edfbf6] text-[2em] w-[2.2em] h-[2.2em] rounded-full flex items-center justify-center mr-[1em] group-hover:bg-[#1acc8d] group-hover:text-[white] transition duration-300 "></span>
+              <div class="textCont">
+                <h2 class="text-[1.8em] font-[700] mb-[5px] text-[#040677] font-[raleway]">Call Us</h2>
+                <p class="text-[1.4em] font-[poppins] font-[400] text-[#444444]">+1 5589 55488 55</p>
+              </div>
+            </li>
+            <li class="flex items-center justify-start mt-[3.2em] group">
+              <span class="bi bi-envelope  text-[#1acc8d] bg-[#edfbf6] text-[2em] w-[2.2em] h-[2.2em] rounded-full flex items-center justify-center mr-[1em] group-hover:bg-[#1acc8d] group-hover:text-[white] transition duration-300 "></span>
+              <div class="textCont">
+                <h2 class="text-[1.8em] font-[700] mb-[5px] text-[#040677] font-[raleway]"> Email Us</h2>
+                <p class="text-[1.4em] font-[poppins] font-[400] text-[#444444]">info@example.com</p>
+              </div>
+            </li>
+           
+          </ul>
+        </div> 
+        <form action="" class=" flex items-center justify-center flex-wrap w-[100%] gap-x-[4%]  gap-y-[2.5em] max-[990px]:mt-[4em]">
+        <input type="text" placeholder="Your Name" class=" text-[1.4em] py-[.8em] px-[.8em] border  border-[#44444] w-[48%] placeholder:font-[poppins]">
+        <input type="text" placeholder="Your Email" class=" text-[1.4em] py-[.8em] px-[.8em] border  border-[#44444] w-[48%] placeholder:font-[poppins]">
+        <input type="text" placeholder="Your Subject" class=" text-[1.4em] py-[.8em] px-[.8em] border  border-[#44444] w-[100%] placeholder:font-[poppins]">
+        <textarea name="" id="" placeholder="Message" rows="6" class=" text-[1.4em] py-[.8em] px-[.8em] border   border-[#44444] w-[100%] placeholder:font-[poppins]"></textarea>
+        <button class="text-[1.6em] font-[500] px-[2em] py-[.6em] rounded-[4.8em] text-[white] bg-[#1acc8d]">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class=" py-[6em] bg-[#08005e]   max-[1200px]:text-[.85rem] max-[990px]:text-[1rem]  max-[580px]:text-[.8rem] max-[580px]:py-[6em]">
+    <div class="container w-[85%] mx-auto">
+        <div class="footerCont flex items-start justify-between flex-wrap text-[white]">
+           <div class="flexBox max-[765px]:w-[100%] max-[765px]:mb-[4em]">
+            <h1 class="text-[2.5em] font-[700] font-[raleway] mb-[1.6em]">Boostslander</h1>
+            <p class="text-[1.4em] my-[.4em] ">A108 Adam Street</p>
+            <p class="text-[1.4em] my-[.4em] mb-[1.5em] "> New York, NY 535022</p>
+            <p class="text-[1.4em] my-[.6em] font-[poppins] font-[500]">Home:<span class="text-[1em] font-[400]">+1 5589 55488 55</span></p>
+            <p class="text-[1.4em] my-[.6em] mb-[1.5em] font-[poppins] font-[500]">Email:<span class="text-[1em] font-[400]">info@example.com</span></p>
+            <ul class="iconList flex justify-start items-center gap-[1.5em]">
+            
+              <li class="w-[4em] h-[4em] rounded-full border flex items-center justify-center hover:border-[#1acc8d] transition duration-500">
+                  <a href="" class="text-white text-[2em]">
+                      <i class="bi bi-twitter hover:text-[#1acc8d] transition duration-500 "></i>
+                      </a>
+                  </li>
+              <li class="w-[4em] h-[4em] rounded-full border flex items-center justify-center hover:border-[#1acc8d] transition duration-500">
+                  <a href="https://www.linkedin.com/company/hanumant-technology-pvt-ltd/" class="text-white text-[2em]">
+                      <i class="bi bi-linkedin hover:text-[#1acc8d] transition duration-500 "></i>
+                  </a>
+                  </li>
+              <li class="w-[4em] h-[4em] rounded-full border flex items-center justify-center hover:border-[#1acc8d] transition duration-500">
+                  <a href="https://www.instagram.com/hanumant_technology/" class="text-white text-[2em]">
+                      <i class="bi bi-instagram hover:text-[#1acc8d] transition duration-500 "></i>
+                  </a>
+              </li>
+              <li class="w-[4em] h-[4em] rounded-full border flex items-center justify-center hover:border-[#1acc8d] transition duration-500">
+                  <a href="https://www.youtube.com/channel/UCwAmmrHpizwBiwSrNvW6hFg/www.youtube.com/hanumanttechnology" class="text-white text-[2em]">
+          
+                      <i class="bi bi-youtube hover:text-[#1acc8d] transition duration-500 "></i>
+                  </a>
+              </li>
+              
+              </ul>
+           </div>
+           <div class="flexBox max-[765px]:w-[100%] max-[765px]:mb-[4em]">
+            <h3 class="text-[1.7em] font-[700] font-[raleway] mb-[1.6em]">Useful Links</h3>
+            <ul>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">Home</a></li>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">About us</a></li>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">Services</a></li>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">Terms of service</a></li>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">Privacy policy</a></li>
+            </ul>
+           </div>
+           <div class="flexBox max-[765px]:w-[100%] max-[765px]:mb-[4em]">
+            <h3 class="text-[1.7em] font-[700] font-[raleway] mb-[1.6em]">Our Services</h3>
+            <ul>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">Web Design</a></li>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">Web Development</a></li>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">Product Management</a></li>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">Marketing</a></li>
+              <li  class="text-[1.3em] text-[#ffffffad] font-[poppins] my-[1em]"><a href="#" class="hover:text-[#1acc8d] transition duration-500">Graphic Design</a></li>
+            </ul>
+           </div>
+           
+           <div class="flexBox w-[35%] max-[990px]:w-[100%] ">
+            <h3 class="text-[1.7em] font-[700] font-[raleway] mb-[1.4em]">Our Newsletter</h3>
+            <p class="text-[1.4em] my-[1.5em] ">Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <div class="inputCont flex items-center justify-start">
+              <input type="text" class=" p-[1.4em] w-[80%] bg-transparent border border-gray-500 rounded-l-[.5em] focus:border-[#1acc8d] transition duration-500" >
+              <button class="text-[1.6em] font-[400] px-[1.8em] py-[.6em] rounded-r-[.5em]  text-[white] bg-[#1acc8d] border border-[#1acc8d]">Subscribe</button>
+            </div>
+           </div>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>
